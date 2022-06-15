@@ -22,11 +22,8 @@ public class Main {
         // Retrieve the user's input
         String input = scanner.next();
 
-        if(correctAnswer.equals(input.toLowerCase())) {
-            System.out.println("Congrats! That's the correct answer");
-        } else {
-            System.out.println("You are incorrect. The correct answer is " + correctAnswer);
-        }
+        if(correctAnswer.equals(input.toLowerCase())) System.out.println("Congrats! That's the correct answer");
+        else System.out.println("You are incorrect. The correct answer is " + correctAnswer);
     }
 
 }
