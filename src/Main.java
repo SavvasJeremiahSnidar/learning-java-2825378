@@ -12,7 +12,7 @@ public class Main {
 
         // Triangle.findArea()? --> Math.pow(2,3)?
 
-
+        System.out.println(Triangle.mumOfSides);
     }
 
 }

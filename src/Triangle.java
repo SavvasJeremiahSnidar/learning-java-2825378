@@ -1,4 +1,7 @@
 public class Triangle {
+
+    static int mumOfSides = 3;
+
     double base;
     double height;
     double sideLenOne;
